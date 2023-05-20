@@ -1,0 +1,58 @@
+.scholarships-container{
+    width: 80vw;
+}
+.s-c-navbar{
+    padding:0 1.5rem;
+    padding-top: 1.5rem;
+
+}
+.s-c-navbar .s-c-n-navigator{
+ text-align: center;
+}
+.s-c-navbar .s-c-n-navigator a{
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    padding:1.5rem;
+}
+/* .s-c-navbar .s-c-n-navigator a:first-child{ */
+.s-c-navbar .s-c-n-navigator a.s-navigator-active{
+    border-bottom: 2px solid blue;
+}
+.s-c-scholarshipcard-container{
+    padding:0 3rem;
+    padding-top: 2rem;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+.s-s-filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .scholarship-search .search-input {
+    width: 50%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .scholarship-search .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .scholarship-search .search-button:hover {
+    background-color: #0056b3;
+  }
+  .dashboard-display{
+    margin-left: 20vw;
+  }

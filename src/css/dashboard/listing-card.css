@@ -1,0 +1,60 @@
+
+.listing-card{
+    margin: 1rem 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.listing-card .listing-content{
+    padding-right: 20px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.listing-card .listing-detail{
+    flex: 1;
+}
+
+.listing-card .listing-detail-para{
+    margin: 8px;
+}
+.listing-card .listing-detail-part{
+    display: flex;
+    gap: 8px;
+}
+
+.listing-card .listing-apply{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.listing-card .listing-apply button{
+    background-color: #3375F0;
+    color: white;
+    font-size: 24px;
+    padding: 8px 48px;
+    border-radius: 12px;
+    border: none;
+}
+
+.listing-card .listing-apply-icons{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.listing-card .icon{
+    padding-top: 12px;
+    /* border: 2px solid greenyellow; */
+}

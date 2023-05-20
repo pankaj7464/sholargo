@@ -1,0 +1,69 @@
+
+
+.account{
+    /* border: 2px solid purple; */
+    width: 70%;
+    padding-left: 40px;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.form-field{
+    width: 32%;
+    margin-bottom: 0.8rem;
+    /* padding-left: 40px; */
+}
+
+.form-field label{
+    font-size: 18px;
+}
+
+.form-field input{
+    width: 80%;
+    padding: 6px;
+}
+
+#home{
+    width: 80%;
+    margin-bottom: 1.8rem;
+    /* border: 2px solid violet; */
+}
+
+.account-management{
+    width: 67%;
+    padding:0 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid salmon; */
+}
+
+.account-management h2{
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+}
+
+.btn{
+    width: 90%;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1rem; */
+    /* border: 2px solid blue; */
+}
+
+span{
+    font-size: 20px;
+    margin-left: 8px;
+}
